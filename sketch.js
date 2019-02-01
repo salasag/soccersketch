@@ -38,6 +38,8 @@ let cloudYVelocity = [];
 let numClouds = 3;
 
 function setup(){
+    //CANVAS_HEIGHT = windowHeight;
+    //CANVAS_WIDTH = windowWidth;
     createCanvas(CANVAS_WIDTH,CANVAS_HEIGHT);
     frameRate(60);
     textSize(70);
